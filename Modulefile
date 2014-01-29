@@ -1,0 +1,11 @@
+name    'ghoneycutt-mailaliases'
+version '0.1.0'
+source 'git://github.com/ghoneycutt/puppet-module-mailaliases.git'
+author 'ghoneycutt'
+license 'Apache License, Version 2.0'
+summary 'manage /etc/aliases'
+description 'manage mail aliases'
+project_page 'https://github.com/ghoneycutt/puppet-module-mailaliases'
+
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
+dependency 'ghoneycutt/common', '>= 1.0.0'
